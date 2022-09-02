@@ -35,9 +35,11 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            RaisedButton(
+            ElevatedButton(
                 key: keys[0],
-                color: Colors.teal,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.teal,
+                ),
                 child: Text(
                   "Network Giffy",
                   style: TextStyle(
@@ -67,9 +69,11 @@ class MyHomePage extends StatelessWidget {
                             onOkButtonPressed: () {},
                           ));
                 }),
-            RaisedButton(
+            ElevatedButton(
                 key: keys[2],
-                color: Colors.teal,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.teal,
+                ),
                 child: Text(
                   'Flare Giffy',
                   style: TextStyle(
@@ -98,9 +102,11 @@ class MyHomePage extends StatelessWidget {
                             onOkButtonPressed: () {},
                           ));
                 }),
-            RaisedButton(
+            ElevatedButton(
                 key: keys[4],
-                color: Colors.teal,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.teal,
+                ),
                 child: Text(
                   'Asset Giffy',
                   style: TextStyle(
